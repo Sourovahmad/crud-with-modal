@@ -124,10 +124,10 @@
                             <?php $id = $level->id; ?>
                             <tr class="data-row">
                                 <td class="iteration">{{$i++}}</td>
-                                <td class="  word-break name">{{$level->firstname}}</td>
-                                <td class=" word-break data ">{{$level->lastname}}</td>
-                                <td class=" word-break data ">{{$level->email}}</td>
-                                <td class=" word-break data ">{{$level->phone}}</td>
+                                <td class="  word-break firstname">{{$level->firstname}}</td>
+                                <td class=" word-break lastname ">{{$level->lastname}}</td>
+                                <td class=" word-break email ">{{$level->email}}</td>
+                                <td class=" word-break phone ">{{$level->phone}}</td>
 
                             s
 
@@ -175,7 +175,7 @@
                 <div class="modal-body" id="attachment-body-content">
                     <form id="level-edit-form" class="form-horizontal" method="POST" action="">
                     @csrf
-                        @method('put')
+              
 
                     <!-- id -->
                         <div class="form-group">

@@ -78,7 +78,7 @@ $(document).on('click', "#level-edit-item", function() {
     var phone = row.children(".phone").text();
 
 
-    var action= $("#indexLink").val()+'/task-levels/'+id;
+    var action= $("#indexLink").val()+'/update/'+id;
     $("#level-edit-form").attr('action',action);
 
     // fill the data in the input fields
