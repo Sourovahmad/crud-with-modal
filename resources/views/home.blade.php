@@ -175,8 +175,7 @@
                 <div class="modal-body" id="attachment-body-content">
                     <form id="level-edit-form" class="form-horizontal" method="POST" action="">
                     @csrf
-              
-
+                      
                     <!-- id -->
                         <div class="form-group">
                             <label class="col-form-label" for="modal-input-id">Id </label>
